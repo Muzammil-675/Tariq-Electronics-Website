@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar{
+    width : 100%;
+    height: 65px;
+    background-color: #1048FF;
+    display: flex;
+    align-items: center;
+}
+#ul1{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color : white;
+    font-size: 20px;
+    align-items: center;
+}
+#ul1 li{
+    margin-left: 20px;
+}
+.logo{
+    font-size : 20px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width : 200px;
+    border : 1px solid black;
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+}
+.content{
+    background-color: #3A3636;
+    width:50%;
+    height:590px;
+    color: white;
+    font-size:25px;
+}
+.content h1{
+    margin-left: 30px;
+}
+#ul2{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#ul2 li{
+    margin-top: 35px;
+}
+.images{
+    background-color: #d9d9d9;
+    width:50%;
+    height:590px;
+    position: absolute;
+    right:0px;
+    top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:35px
+}
+footer{
+    width : 100%;
+    height: 60px;
+    background-color: #1048FF;
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp{
+    background-image: url(images/1.png);
+    height:50px;
+    width:60px;
+    background-size: cover;
+    position: absolute;
+    left: 30px
+}
+.whatsapp-number{
+    background-color: #d9d9d9;
+    height:40px;
+    width:200px;
+    color:black;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 120px;
+}
+.gmail{
+    background-image: url(images/img2.png);
+    height:50px;
+    width:60px;
+    background-size: cover;
+    position: absolute;
+    right: 400px;
+}
+.gmail-address{
+    background-color: #d9d9d9;
+    height:40px;
+    width:350px;
+    color:black;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+}
+.set-png{
+    background-image: url(images/set.png);
+    height:150px;
+    width:300px;
+    background-size: cover;
+    
+}
+.tablet-png{
+    background-image: url(images/tablet.png);
+    height:150px;
+    width:300px;
+    background-size: cover;
+}
+.nakamichi-png{
+    background-image: url(images/nakamichi.png);
+    height:150px;
+    width:300px;
+    background-size: cover;
+    
+}
+
+/* Mobile Media Querry */
+
+@media(max-width:1162px){
+    span{
+        margin-left: 10px;
+    }
+}
+@media(min-width : 350px) and (max-width : 650px){
+    #ul1{
+        font-size:15px;
+    }
+    #ul1 li{
+        margin-left: 10px;
+    }
+    .logo{
+    height: 50px;
+    width : 150px;
+    font-size: 15px;
+    }
+
+
+.content{
+    background-color: #3A3636;
+    width:100%;
+    height:590px;
+    color: white;
+    font-size:18px;
+}
+.content h1{
+    margin-left: 10px;
+    position:relative;
+    top : 10px;
+}
+#ul2{
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#ul2 li{
+    margin-top: 40px;
+}
+.images{
+    background-color: #d9d9d9;
+    width:100%;
+    height:590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:35px;
+    position:absolute;
+    top : 655px;
+}
+
+
+
+
+footer{
+    width : 100%;
+    height: 120px;
+    background-color: #1048FF;
+    position:absolute;
+    top :1240px
+}
+
+.whatsapp{
+    background-image: url(images/1.png);
+    height:40px;
+    width:45px;
+    background-size: cover;
+    position: absolute;
+    left: 10px;
+    bottom : 70px;
+}
+.whatsapp-number{
+    background-color: #d9d9d9;
+    height:40px;
+    width:200px;
+    color:black;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 60px;
+    bottom : 70px
+}
+.whatsapp-number span{
+    margin-right:15px;
+}
+.gmail{
+    background-image: url(images/img2.png);
+    height:40px;
+    width:45px;
+    background-size: cover;
+    position: absolute;
+    left: 10px;
+    bottom:10px;
+    
+}
+.gmail-address{
+    background-color: #d9d9d9;
+    height:40px;
+    width:300px;
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left : 60px;
+    bottom : 10px;
+}
+
+
+}
+
+
+/* Ipad Media Querries */
+
+@media (min-width : 650px) and (max-width : 950px){
+    .content{
+        font-size: 15px;
+    }
+    .content h1{
+        position: relative;
+        top : 10px
+    }
+    footer{
+    width : 100%;
+    height: 120px;
+    background-color: #1048FF;
+    position:absolute;
+    top :650px
+}
+
+.whatsapp{
+    background-image: url(images/1.png);
+    height:40px;
+    width:45px;
+    background-size: cover;
+    position: absolute;
+    left: 10px;
+    bottom : 70px;
+}
+.whatsapp-number{
+    background-color: #d9d9d9;
+    height:40px;
+    width:200px;
+    color:black;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 60px;
+    bottom : 70px
+}
+.whatsapp-number span{
+    margin-right:15px;
+}
+.gmail{
+    background-image: url(images/img2.png);
+    height:40px;
+    width:45px;
+    background-size: cover;
+    position: absolute;
+    left: 10px;
+    bottom:10px;
+    
+}
+.gmail-address{
+    background-color: #d9d9d9;
+    height:40px;
+    width:300px;
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left : 60px;
+    bottom : 10px;
+}
+
+
+}
